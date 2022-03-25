@@ -1,3 +1,106 @@
-body{
-    background-color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sarabun';
+}
+
+header nav{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    width: 100%;
+}
+
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+header a:hover{
+    text-decoration: 2px underline black;
+    font-size: 24px;
+    transition: 1s;
+}
+
+header h2{
+    font-family: 'Satisfy';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+header button{
+    background-color:black;
+    color: white;
+    font-weight: lighter;
+    height: 2.80rem;
+    border-radius: 17px;
+    text-transform: uppercase;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    padding: 14px;
+}
+
+header button:hover{
+    background-color: #DED5C6;
+    color: black;
+    font-weight: bold;
+    transition: 1s;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: aquamarine;
+}
+
+.title h1{
+    color: black;
+    width: 45%;
+    font-size: 72px;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+.title p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 47%;
+    margin-top: 1.3rem;
+    text-align: justify;
+}
+
+.title button{
+    margin-top: 2.3rem;
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+    width: 20%;
+    border: none;
+    padding: 15px;
+    border-radius: 17px;
+    text-transform: uppercase;
+    align-items: center;
+    cursor: pointer;
 }
