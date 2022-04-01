@@ -8,7 +8,7 @@
 }
 
 header nav{
-    background-color: red;
+  /*   background-color: red; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -59,10 +59,11 @@ header button:hover{
 main{
     width: 100%;
     display: flex;
-    background-color: aqua;
+    /* background-color: aqua; */
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
 }
 
 .title {
@@ -71,7 +72,7 @@ main{
     justify-content: center;
     align-items: center;
     width: 50%;
-    background-color: aquamarine;
+/*     background-color: aquamarine; */
 }
 
 .title h1{
@@ -103,4 +104,26 @@ main{
     text-transform: uppercase;
     align-items: center;
     cursor: pointer;
+}
+
+.title button:hover{
+    background-color: #DED5C6;
+    color: black;
+    font-weight: bold;
+    transition: 1s;
+}
+
+#product-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* background-color:pink; */
+
+}
+
+#product-image img{
+    max-width: 70%;
+    border-radius: 20px;
 }
